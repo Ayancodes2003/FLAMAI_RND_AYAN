@@ -221,7 +221,7 @@ def main():
 
     final_param_path = out_dir / "final_parameters.json"
     save_final_parameters(final_params_payload, final_param_path)
-    print(f"   Final parameters saved to: {final_param_path.resolve()}")
+    print(f"   Final parameters saved to: {final_param_path}")
 
     # 4. Sampling Convergence Analysis
     print("\n3. Evaluating Sampling Convergence across N in [500, 1000, 1500, 5000, 10000]...")
@@ -232,7 +232,7 @@ def main():
     
     conv_path = out_dir / "evaluation_convergence.json"
     save_evaluation_convergence(convergence_records, conv_path)
-    print(f"   Convergence table saved to: {conv_path.resolve()}")
+    print(f"   Convergence table saved to: {conv_path}")
 
     print("\n   SAMPLING CONVERGENCE TABLE:")
     print("   " + "-" * 78)
@@ -270,7 +270,7 @@ def main():
         x_obs, y_obs, theta_deg, M, X, convergence_records, figures_dir
     )
     for ff in fig_files:
-        print(f"   Created: {ff.resolve()}")
+        print(f"   Created: {ff}")
 
     print("\n" + "=" * 70)
     print("EVALUATION COMPLETE: All artifacts successfully generated.")

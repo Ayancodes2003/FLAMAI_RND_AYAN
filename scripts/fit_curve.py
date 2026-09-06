@@ -62,7 +62,7 @@ def main():
 
     out_path = Path(args.output)
     save_baseline_results(results, out_path)
-    print(f"\nResults successfully saved to: {out_path.resolve()}")
+    print(f"\nResults successfully saved to: {out_path}")
 
 
 if __name__ == "__main__":

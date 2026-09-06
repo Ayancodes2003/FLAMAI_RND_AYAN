@@ -86,7 +86,7 @@ Noiseless synthetic datasets with varying point counts $N$:
 | **$1,000$** | $30.000000^\circ$ | $0.030000$ | $55.000000$ | $(<10^{-5}, <10^{-6}, <10^{-5})$ |
 | **$1,500$** | $30.000000^\circ$ | $0.030000$ | $55.000000$ | $(<10^{-5}, <10^{-6}, <10^{-5})$ |
 
-*Finding:* Under noiseless conditions, the geometry solver recovers exact parameters with as few as $100$ points ($< 20$ points per oscillation cycle).
+*Finding:* Under noiseless conditions, the geometry solver recovers parameters within numerical tolerance ($< 10^{-6}$ error) with as few as $100$ points ($< 20$ points per oscillation cycle).
 
 ---
 

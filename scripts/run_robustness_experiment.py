@@ -419,7 +419,7 @@ def main():
     json_path = out_dir / "robustness_experiment.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=4)
-    print(f"\n   Saved structured data to: {json_path.resolve()}")
+    print(f"\n   Saved structured data to: {json_path}")
 
     # Generate figures
     print("\n5. Generating diagnostic figures in results/figures/...")
@@ -430,7 +430,7 @@ def main():
         figures_dir,
     )
     for ff in fig_files:
-        print(f"   Created: {ff.resolve()}")
+        print(f"   Created: {ff}")
 
     # Print summary tables
     print("\n" + "=" * 78)

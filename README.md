@@ -145,7 +145,7 @@ Controlled Gaussian noise $\mathcal{N}(0, \sigma^2)$ added to coordinates (10 tr
 | **$\sigma = 0.050$** | $0.003567^\circ$ | $0.000032$ | $0.003547$ | $0.006645$ |
 | **$\sigma = 0.100$** | $0.006228^\circ$ | $0.000109$ | $0.005203$ | $0.015073$ |
 
-*Summary:* Within the tested noise range ($\sigma \le 0.10$), parameter estimation errors scale smoothly and linearly with perturbation amplitude.
+*Summary:* Within the tested noise range ($\sigma \le 0.10$), parameter estimation errors scale smoothly and approximately linearly with perturbation amplitude.
 
 ---
 
@@ -263,4 +263,4 @@ FLAMAI_RND_AYAN/
 
 ## 14. Final Takeaway
 
-The final parameters are $\theta = 30^\circ$, $M = 0.03$, and $X = 55$. The primary contribution of this work is not merely obtaining these three values, but deriving the orthonormal geometric decomposition that uncouples parameter $t$ and growth rate $M$ into closed-form projections, reducing runtime by $\approx 700\times$ while matching the independent numerical baseline to machine precision.
+The final parameters are $\theta = 30^\circ$, $M = 0.03$, and $X = 55$. The primary contribution of this work is not merely obtaining these three values, but deriving the orthonormal geometric decomposition that uncouples parameter $t$ and growth rate $M$ into closed-form projections, reducing observed runtime by $\approx 700\times$ on this benchmark while matching the independent numerical baseline within numerical tolerance.

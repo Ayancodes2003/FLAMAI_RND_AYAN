@@ -69,7 +69,7 @@ def load_dataset(filepath: Union[str, Path] = "xy_data.csv") -> Tuple[np.ndarray
     """
     path = Path(filepath)
     if not path.exists():
-        raise FileNotFoundError(f"Dataset file not found at: {path.resolve()}")
+        raise FileNotFoundError(f"Dataset file not found at: {path}")
         
     df = pd.read_csv(path)
     if "x" not in df.columns or "y" not in df.columns:

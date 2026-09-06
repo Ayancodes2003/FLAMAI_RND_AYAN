@@ -7,7 +7,7 @@
     "continuous_l1_mean": 0.0010497798985882223,
     "optimization_method": "Nelder-Mead (Multi-Start)",
     "num_runs": 6,
-    "total_duration_sec": 11.269626140594482,
+    "total_duration_sec": 8.089974403381348,
     "all_runs": [
         {
             "run_index": 1,
@@ -26,7 +26,7 @@
             "nit": 101,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.9490385055541992
+            "duration_sec": 1.239915132522583
         },
         {
             "run_index": 2,
@@ -45,7 +45,7 @@
             "nit": 101,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.6845908164978027
+            "duration_sec": 1.2311673164367676
         },
         {
             "run_index": 3,
@@ -64,7 +64,7 @@
             "nit": 144,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.9742965698242188
+            "duration_sec": 1.7365567684173584
         },
         {
             "run_index": 4,
@@ -83,7 +83,7 @@
             "nit": 120,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.856656789779663
+            "duration_sec": 1.435091495513916
         },
         {
             "run_index": 5,
@@ -102,7 +102,7 @@
             "nit": 105,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.9477519989013672
+            "duration_sec": 1.2710597515106201
         },
         {
             "run_index": 6,
@@ -121,7 +121,7 @@
             "nit": 95,
             "success": true,
             "status_message": "Optimization terminated successfully.",
-            "duration_sec": 1.8572914600372314
+            "duration_sec": 1.1761839389801025
         }
     ],
     "best_run": {
@@ -141,6 +141,6 @@
         "nit": 105,
         "success": true,
         "status_message": "Optimization terminated successfully.",
-        "duration_sec": 1.9477519989013672
+        "duration_sec": 1.2710597515106201
     }
 }
