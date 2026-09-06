@@ -1,4 +1,4 @@
-# Flam AI — Parametric Curve Inverse Problem
+# Flam AI: Parametric Curve Inverse Problem
 
 ---
 
@@ -92,9 +92,9 @@ This transformation simplifies a difficult 3-parameter non-linear inverse proble
 | **$\theta$ (Rotation Angle)** | $29.999853^\circ$ | **$29.999973^\circ$** | **$30.0^\circ$** |
 | **$M$ (Growth Rate)** | $0.030000$ | **$0.030000$** | **$0.03$** |
 | **$X$ ($x$-Offset)** | $55.001866$ | **$54.999998$** | **$55.0$** |
-| **Curve Mean $L_1$ ($N=1500$)** | $0.013496$ | **$0.013385$** | — |
-| **Transverse Residual** | — | **$2.49 \times 10^{-6}$** | **$0.0$** |
-| **Execution Runtime** | $11.270\text{ s}$ | **$0.016\text{ s}$** | — |
+| **Curve Mean $L_1$ ($N=1500$)** | $0.013496$ | **$0.013385$** | N/A |
+| **Transverse Residual** | N/A | **$2.49 \times 10^{-6}$** | **$0.0$** |
+| **Execution Runtime** | $11.270\text{ s}$ | **$0.016\text{ s}$** | N/A |
 
 *Note:* Both methods converge to the identical parameter values independently. On this dataset and implementation, the geometry-based estimator was approximately $700\times$ faster due to the closed-form reduction of $M$ and $t$.
 
@@ -169,18 +169,16 @@ Controlled Gaussian noise $\mathcal{N}(0, \sigma^2)$ added to coordinates (10 tr
 ## 10. Desmos Representation
 
 **Interactive Desmos Graph:**
-`TODO: FINAL DESMOS LINK`
+[https://www.desmos.com/calculator/z4yfbq6nii](https://www.desmos.com/calculator/z4yfbq6nii)
 
 ### Parametric Equations for Desmos:
 ```desmos
-\theta = 30 \cdot \frac{\pi}{180}
+\theta = 30
+\theta_{rad} = \theta \cdot \frac{\pi}{180}
 M = 0.03
 X = 55
 
-x(t) = t \cos(\theta) - e^{M \cdot t} \sin(0.3 t) \sin(\theta) + X
-y(t) = 42 + t \sin(\theta) + e^{M \cdot t} \sin(0.3 t) \cos(\theta)
-
-(x(t), y(t)) \quad \text{for } 6 \le t \le 60
+(t \cos(\theta_{rad}) - e^{M \cdot |t|} \sin(0.3 t) \sin(\theta_{rad}) + X, 42 + t \sin(\theta_{rad}) + e^{M \cdot |t|} \sin(0.3 t) \cos(\theta_{rad})) \quad \text{for } 6 \le t \le 60
 ```
 
 ---

@@ -35,9 +35,9 @@ $$d(p_i, \mathcal{C}_{\text{pred}}) = \min_{q_j \in \mathcal{C}_{\text{pred}}} \
 ## 4. Bidirectional Evaluations (Observed $\to$ Predicted and Predicted $\to$ Observed)
 A rigorous curve comparison must evaluate both directions:
 1. **Observed $\to$ Predicted ($\mathcal{P}_{\text{obs}} \to \mathcal{C}_{\text{pred}}$):**
-   Measures *fidelity*—how closely the reconstructed curve passes near every actual observation point.
+   Measures *fidelity*: how closely the reconstructed curve passes near every actual observation point.
 2. **Predicted $\to$ Observed ($\mathcal{C}_{\text{pred}} \to \mathcal{P}_{\text{obs}}$):**
-   Measures *coverage / spuriousness*—verifies that the predicted curve does not wander into empty regions of space where no data exists.
+   Measures *coverage / spuriousness*: verifies that the predicted curve does not wander into empty regions of space where no data exists.
 
 ---
 

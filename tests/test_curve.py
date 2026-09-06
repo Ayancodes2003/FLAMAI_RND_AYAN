@@ -1,5 +1,5 @@
 """
-Comprehensive unit tests for src/curve.py.
+Unit tests for src/curve.py.
 
 Verifies:
 1. Scalar and vectorized evaluations.

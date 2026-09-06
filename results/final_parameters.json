@@ -9,12 +9,12 @@
     "transverse_residual_l1": 2.493875538259204e-06,
     "valid_points_for_M": 1355,
     "total_points": 1500,
-    "duration_sec": 0.019054174423217773,
+    "duration_sec": 0.018354177474975586,
     "baseline_comparison": {
         "theta_deg": 29.999852929724128,
         "M": 0.030000265457331803,
         "X": 55.00186591626181,
         "optimization_method": "Nelder-Mead (Multi-Start)",
-        "total_duration_sec": 8.089974403381348
+        "total_duration_sec": 8.588908910751343
     }
 }
