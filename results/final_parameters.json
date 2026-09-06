@@ -9,7 +9,7 @@
     "transverse_residual_l1": 2.493875538259204e-06,
     "valid_points_for_M": 1355,
     "total_points": 1500,
-    "duration_sec": 0.015657424926757812,
+    "duration_sec": 0.01596808433532715,
     "baseline_comparison": {
         "theta_deg": 29.999852929724128,
         "M": 0.030000265457331803,

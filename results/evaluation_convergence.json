@@ -28,7 +28,7 @@
             "max_pred_to_obs_l1": 0.3382976038200667,
             "symmetric_mean_l1": 0.02007177325532219,
             "symmetric_max_l1": 0.3382976038200667,
-            "runtime_ms": 15.953779220581055
+            "runtime_ms": 0.0
         },
         {
             "N": 5000,
@@ -38,7 +38,7 @@
             "max_pred_to_obs_l1": 0.3538978014491647,
             "symmetric_mean_l1": 0.015366491385297724,
             "symmetric_max_l1": 0.3538978014491647,
-            "runtime_ms": 3.3524036407470703
+            "runtime_ms": 0.0
         },
         {
             "N": 10000,
@@ -48,7 +48,7 @@
             "max_pred_to_obs_l1": 0.3531038910037978,
             "symmetric_mean_l1": 0.014321099633956967,
             "symmetric_max_l1": 0.3531038910037978,
-            "runtime_ms": 5.000591278076172
+            "runtime_ms": 0.0
         }
     ]
 }

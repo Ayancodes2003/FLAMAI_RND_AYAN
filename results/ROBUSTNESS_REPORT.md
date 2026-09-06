@@ -116,9 +116,9 @@ Testing across $M \in [-0.048, +0.048]$:
 ## 6. Generated Figures
 
 Diagnostic plots saved to `results/figures/`:
-1. [`noise_parameter_error.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/noise_parameter_error.png) — Parameter error scaling vs $\sigma$.
-2. [`noise_reconstruction_error.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/noise_reconstruction_error.png) — Mean and max curve $L_1$ error vs $\sigma$.
-3. [`observation_density.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/observation_density.png) — Parameter error vs observation sample count $N$.
-4. [`parameter_sensitivity_theta.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/parameter_sensitivity_theta.png) — $L_1$ response to $\Delta\theta$.
-5. [`parameter_sensitivity_M.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/parameter_sensitivity_M.png) — $L_1$ response to $\Delta M$.
-6. [`parameter_sensitivity_X.png`](file:///D:/PROJECTS%20%20GITHUB/FLAMAI_RND_AYAN/results/figures/parameter_sensitivity_X.png) — $L_1$ response to $\Delta X$.
+1. [`noise_parameter_error.png`](figures/noise_parameter_error.png) — Parameter error scaling vs $\sigma$.
+2. [`noise_reconstruction_error.png`](figures/noise_reconstruction_error.png) — Mean and max curve $L_1$ error vs $\sigma$.
+3. [`observation_density.png`](figures/observation_density.png) — Parameter error vs observation sample count $N$.
+4. [`parameter_sensitivity_theta.png`](figures/parameter_sensitivity_theta.png) — $L_1$ response to $\Delta\theta$.
+5. [`parameter_sensitivity_M.png`](figures/parameter_sensitivity_M.png) — $L_1$ response to $\Delta M$.
+6. [`parameter_sensitivity_X.png`](figures/parameter_sensitivity_X.png) — $L_1$ response to $\Delta X$.
