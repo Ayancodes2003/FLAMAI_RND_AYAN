@@ -1,0 +1,24 @@
+{
+    "theta_degrees": 29.999973008696525,
+    "theta_radians": 0.5235983045111838,
+    "M": 0.029999997996476447,
+    "X": 54.99999841432971,
+    "transverse_residual_l1": 2.493875538259204e-06,
+    "num_candidate_nodes": 5,
+    "node_t_values": [
+        10.471975511965978,
+        20.943951023931955,
+        31.41592653589793,
+        41.88790204786391,
+        52.35987755982989
+    ],
+    "valid_points_for_M": 1355,
+    "total_points": 1500,
+    "m_regression_diagnostics": {
+        "r_squared": 0.9999999999662134,
+        "mean_abs_error": 2.493875538259204e-06,
+        "valid_points_fraction": 0.9033333333333333
+    },
+    "optimizer_iterations": 58,
+    "duration_sec": 0.019998550415039062
+}
