@@ -1,0 +1,20 @@
+{
+    "theta_deg": 29.999973008696525,
+    "theta_rad": 0.5235983045111838,
+    "M": 0.029999997996476447,
+    "X": 54.99999841432971,
+    "t_min": 6.0,
+    "t_max": 60.0,
+    "solver_method": "Analytical Orthonormal Geometric Decomposition",
+    "transverse_residual_l1": 2.493875538259204e-06,
+    "valid_points_for_M": 1355,
+    "total_points": 1500,
+    "duration_sec": 0.015657424926757812,
+    "baseline_comparison": {
+        "theta_deg": 29.999852929724128,
+        "M": 0.030000265457331803,
+        "X": 55.00186591626181,
+        "optimization_method": "Nelder-Mead (Multi-Start)",
+        "total_duration_sec": 11.269626140594482
+    }
+}

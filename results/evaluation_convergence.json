@@ -1,0 +1,54 @@
+{
+    "convergence_records": [
+        {
+            "N": 500,
+            "mean_obs_to_pred_l1": 0.040420632148196516,
+            "max_obs_to_pred_l1": 0.1270531866255027,
+            "mean_pred_to_obs_l1": 0.0262375168146864,
+            "max_pred_to_obs_l1": 0.3488674479688427,
+            "symmetric_mean_l1": 0.033329074481441456,
+            "symmetric_max_l1": 0.3488674479688427,
+            "runtime_ms": 0.0
+        },
+        {
+            "N": 1000,
+            "mean_obs_to_pred_l1": 0.01939517758939449,
+            "max_obs_to_pred_l1": 0.06128275316687848,
+            "mean_pred_to_obs_l1": 0.025819081241162563,
+            "max_pred_to_obs_l1": 0.3409359280891522,
+            "symmetric_mean_l1": 0.022607129415278527,
+            "symmetric_max_l1": 0.3409359280891522,
+            "runtime_ms": 0.0
+        },
+        {
+            "N": 1500,
+            "mean_obs_to_pred_l1": 0.013385395784901381,
+            "max_obs_to_pred_l1": 0.0409896735044839,
+            "mean_pred_to_obs_l1": 0.026758150725743002,
+            "max_pred_to_obs_l1": 0.3382976038200667,
+            "symmetric_mean_l1": 0.02007177325532219,
+            "symmetric_max_l1": 0.3382976038200667,
+            "runtime_ms": 15.953779220581055
+        },
+        {
+            "N": 5000,
+            "mean_obs_to_pred_l1": 0.004073904456698723,
+            "max_obs_to_pred_l1": 0.012356557844711347,
+            "mean_pred_to_obs_l1": 0.026659078313896724,
+            "max_pred_to_obs_l1": 0.3538978014491647,
+            "symmetric_mean_l1": 0.015366491385297724,
+            "symmetric_max_l1": 0.3538978014491647,
+            "runtime_ms": 3.3524036407470703
+        },
+        {
+            "N": 10000,
+            "mean_obs_to_pred_l1": 0.0020030965066185047,
+            "max_obs_to_pred_l1": 0.006203307394926583,
+            "mean_pred_to_obs_l1": 0.02663910276129543,
+            "max_pred_to_obs_l1": 0.3531038910037978,
+            "symmetric_mean_l1": 0.014321099633956967,
+            "symmetric_max_l1": 0.3531038910037978,
+            "runtime_ms": 5.000591278076172
+        }
+    ]
+}
